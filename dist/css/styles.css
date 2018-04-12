@@ -1,0 +1,9 @@
+.test {
+  font-size: 20px;
+  color: #ff0;
+}
+
+.test .test1 {
+  font-size: 15px;
+  color: green;
+}

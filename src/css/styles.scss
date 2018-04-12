@@ -1,0 +1,69 @@
+.test{
+    font-size: 20px;
+    color: yellow;
+    .test1{
+        font-size: 15px;
+        color: green;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    .containertext{
+        text-align: center;
+        text-justify: center;
+        color: blue;
+        padding-top: 20px;
+    }
+}
+
+.body{
+    float: left;
+    width: 60%;
+    background-color: yellowgreen;
+    height: 526px;
+    .title{
+        text-align: left;
+        color: black;
+        font-size: 30px;
+    }
+    .Description{
+        color: black;
+        font-size: 15px;
+    }
+    .author{
+        padding-top: 180px;
+        color: black;
+        font-size: 15px;
+        float: left;
+        text-align: left
+    }
+    .date{
+        padding-top: 180px;
+        color: black;
+        font-size: 15px;
+        float: right;
+        text-align: right;
+    }
+}
+
+.sidebar{
+    float: right;
+    width:40%;
+    background-color: grey;
+    height: 526px;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(0, 255, 85);
+    height: 60px;
+    clear: both;
+    .text{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 12px;
+    }
+}
